@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Wanderlight - Illumina il tuo cammino verso nuove esperienze e scoperte straordinarie.">
+    <meta name="keywords" content="Wanderlight, esperienze, scoperte, avventure">
+    <meta name="author" content="Michele Milazzo">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Wanderlight - Illumina il tuo cammino">
+    <meta property="og:description" content="Scopri nuove esperienze e lasciati guidare dalla luce dell'avventura.">
+    <meta property="og:image" content="assets/og-image.jpg">
+    
+    <title>Wanderlight - Illumina il tuo cammino</title>
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✨</text></svg>">
+</head>
+<body>
+    <!-- Skip Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Salta al contenuto principale</a>
+    
+    <!-- Header / Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container" aria-label="Navigazione principale">
+            <a href="#" class="nav__logo" aria-label="Wanderlight - Home">
+                <span class="nav__logo-icon">✨</span>
+                <span class="nav__logo-text">Wanderlight</span>
+            </a>
+            
+            <button class="nav__toggle" id="nav-toggle" aria-label="Apri menu di navigazione" aria-expanded="false" aria-controls="nav-menu">
+                <span class="nav__toggle-bar"></span>
+                <span class="nav__toggle-bar"></span>
+                <span class="nav__toggle-bar"></span>
+            </button>
+            
+            <ul class="nav__menu" id="nav-menu" role="menubar">
+                <li class="nav__item" role="none">
+                    <a href="#home" class="nav__link active" role="menuitem">Home</a>
+                </li>
+                <li class="nav__item" role="none">
+                    <a href="#about" class="nav__link" role="menuitem">Chi Siamo</a>
+                </li>
+                <li class="nav__item" role="none">
+                    <a href="#services" class="nav__link" role="menuitem">Servizi</a>
+                </li>
+                <li class="nav__item" role="none">
+                    <a href="#features" class="nav__link" role="menuitem">Caratteristiche</a>
+                </li>
+                <li class="nav__item" role="none">
+                    <a href="#contact" class="nav__link" role="menuitem">Contatti</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        
+        <!-- Hero Section -->
+        <section class="hero" id="home" aria-labelledby="hero-title">
+            <div class="hero__background">
+                <div class="hero__particles" aria-hidden="true"></div>
+            </div>
+            <div class="hero__content container">
+                <span class="hero__badge">Benvenuto in Wanderlight</span>
+                <h1 class="hero__title" id="hero-title">
+                    Illumina il tuo <span class="text-gradient">cammino</span>
+                </h1>
+                <p class="hero__description">
+                    Scopri nuove esperienze e lasciati guidare dalla luce dell'avventura. 
+                    Ogni viaggio inizia con un singolo passo verso l'ignoto.
+                </p>
+                <div class="hero__cta">
+                    <a href="#about" class="btn btn--primary">
+                        Scopri di più
+                        <svg class="btn__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="#contact" class="btn btn--secondary">Contattaci</a>
+                </div>
+            </div>
+            <div class="hero__scroll" aria-hidden="true">
+                <span class="hero__scroll-text">Scorri</span>
+                <div class="hero__scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about" aria-labelledby="about-title">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__badge">Chi Siamo</span>
+                    <h2 class="section__title" id="about-title">La nostra <span class="text-gradient">storia</span></h2>
+                    <p class="section__subtitle">
+                        Wanderlight nasce dalla passione per l'esplorazione e dalla voglia di condividere esperienze uniche.
+                    </p>
+                </div>
+                
+                <div class="about__grid">
+                    <div class="about__content">
+                        <p class="about__text">
+                            Siamo un team dedicato a creare momenti indimenticabili. La nostra missione è guidarti 
+                            attraverso percorsi illuminati dalla curiosità e dall'entusiasmo per le nuove scoperte.
+                        </p>
+                        <p class="about__text">
+                            Ogni esperienza che offriamo è pensata per arricchire la tua vita, 
+                            aprirti nuove prospettive e farti vivere avventure autentiche che rimarranno 
+                            impresse nella memoria.
+                        </p>
+                        
+                        <div class="about__stats">
+                            <div class="stat">
+                                <span class="stat__number" data-count="500">0</span>
+                                <span class="stat__label">Clienti Soddisfatti</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat__number" data-count="150">0</span>
+                                <span class="stat__label">Progetti Completati</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat__number" data-count="10">0</span>
+                                <span class="stat__label">Anni di Esperienza</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about__image">
+                        <div class="about__image-wrapper">
+                            <div class="about__image-placeholder" aria-label="Immagine decorativa che rappresenta l'esplorazione">
+                                <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <circle cx="100" cy="100" r="80" stroke="url(#gradient1)" stroke-width="2" fill="none"/>
+                                    <circle cx="100" cy="100" r="60" stroke="url(#gradient1)" stroke-width="2" fill="none" opacity="0.7"/>
+                                    <circle cx="100" cy="100" r="40" stroke="url(#gradient1)" stroke-width="2" fill="none" opacity="0.5"/>
+                                    <path d="M100 40L110 70H140L116 88L126 118L100 100L74 118L84 88L60 70H90L100 40Z" fill="url(#gradient1)"/>
+                                    <defs>
+                                        <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" stop-color="#6366f1"/>
+                                            <stop offset="100%" stop-color="#a855f7"/>
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services section section--alt" id="services" aria-labelledby="services-title">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__badge">I Nostri Servizi</span>
+                    <h2 class="section__title" id="services-title">Cosa <span class="text-gradient">offriamo</span></h2>
+                    <p class="section__subtitle">
+                        Soluzioni personalizzate per illuminare ogni aspetto del tuo percorso.
+                    </p>
+                </div>
+                
+                <div class="services__grid">
+                    <article class="service-card">
+                        <div class="service-card__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Consulenza Strategica</h3>
+                        <p class="service-card__description">
+                            Analizziamo le tue esigenze e creiamo strategie personalizzate per raggiungere i tuoi obiettivi.
+                        </p>
+                        <a href="#contact" class="service-card__link">
+                            Scopri di più
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-card__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                                <path d="M2 17l10 5 10-5"/>
+                                <path d="M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Sviluppo Progetti</h3>
+                        <p class="service-card__description">
+                            Trasformiamo le idee in realtà concrete con un approccio metodico e orientato ai risultati.
+                        </p>
+                        <a href="#contact" class="service-card__link">
+                            Scopri di più
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-card__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Supporto Dedicato</h3>
+                        <p class="service-card__description">
+                            Un team di esperti sempre al tuo fianco per guidarti e supportarti in ogni fase del percorso.
+                        </p>
+                        <a href="#contact" class="service-card__link">
+                            Scopri di più
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-card__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22 4 12 14.01 9 11.01"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Garanzia Qualità</h3>
+                        <p class="service-card__description">
+                            Standard elevati e attenzione ai dettagli per garantire risultati che superano le aspettative.
+                        </p>
+                        <a href="#contact" class="service-card__link">
+                            Scopri di più
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features section" id="features" aria-labelledby="features-title">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__badge">Perché Sceglierci</span>
+                    <h2 class="section__title" id="features-title">I nostri <span class="text-gradient">punti di forza</span></h2>
+                    <p class="section__subtitle">
+                        Ciò che ci distingue e ci rende la scelta ideale per il tuo prossimo progetto.
+                    </p>
+                </div>
+                
+                <div class="features__grid">
+                    <div class="feature">
+                        <div class="feature__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature__title">Velocità</h3>
+                        <p class="feature__description">Risposte rapide e tempi di consegna ottimizzati.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature__title">Affidabilità</h3>
+                        <p class="feature__description">Professionalità e trasparenza in ogni interazione.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <circle cx="12" cy="12" r="3"/>
+                                <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature__title">Personalizzazione</h3>
+                        <p class="feature__description">Soluzioni su misura per ogni esigenza specifica.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature__title">Passione</h3>
+                        <p class="feature__description">Amiamo ciò che facciamo e si vede nei risultati.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature__title">Comunicazione</h3>
+                        <p class="feature__description">Dialogo costante e aggiornamenti regolari.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/>
+                                <polyline points="17 6 23 6 23 12"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature__title">Crescita</h3>
+                        <p class="feature__description">Ti accompagniamo verso il successo duraturo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta section" aria-labelledby="cta-title">
+            <div class="container">
+                <div class="cta__content">
+                    <h2 class="cta__title" id="cta-title">Pronto a iniziare il tuo <span class="text-gradient">viaggio</span>?</h2>
+                    <p class="cta__description">
+                        Unisciti a noi e scopri come possiamo illuminare insieme il tuo percorso verso nuovi traguardi.
+                    </p>
+                    <a href="#contact" class="btn btn--primary btn--large">
+                        Inizia Ora
+                        <svg class="btn__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section section--alt" id="contact" aria-labelledby="contact-title">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__badge">Contattaci</span>
+                    <h2 class="section__title" id="contact-title">Restiamo in <span class="text-gradient">contatto</span></h2>
+                    <p class="section__subtitle">
+                        Hai domande o vuoi saperne di più? Siamo qui per aiutarti.
+                    </p>
+                </div>
+                
+                <div class="contact__grid">
+                    <div class="contact__info">
+                        <div class="contact__item">
+                            <div class="contact__item-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </div>
+                            <div class="contact__item-content">
+                                <h3 class="contact__item-title">Email</h3>
+                                <a href="mailto:info@wanderlight.it" class="contact__item-link">info@wanderlight.it</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact__item">
+                            <div class="contact__item-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                            </div>
+                            <div class="contact__item-content">
+                                <h3 class="contact__item-title">Telefono</h3>
+                                <a href="tel:+390000000000" class="contact__item-link">+39 000 000 0000</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact__item">
+                            <div class="contact__item-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div class="contact__item-content">
+                                <h3 class="contact__item-title">Indirizzo</h3>
+                                <p class="contact__item-text">Italia</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form class="contact__form" id="contact-form" novalidate>
+                        <div class="form__group">
+                            <label for="name" class="form__label">Nome <span class="form__required" aria-label="campo obbligatorio">*</span></label>
+                            <input type="text" id="name" name="name" class="form__input" placeholder="Il tuo nome" required autocomplete="name">
+                            <span class="form__error" role="alert" aria-live="polite"></span>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="email" class="form__label">Email <span class="form__required" aria-label="campo obbligatorio">*</span></label>
+                            <input type="email" id="email" name="email" class="form__input" placeholder="La tua email" required autocomplete="email">
+                            <span class="form__error" role="alert" aria-live="polite"></span>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="subject" class="form__label">Oggetto</label>
+                            <input type="text" id="subject" name="subject" class="form__input" placeholder="Oggetto del messaggio">
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="message" class="form__label">Messaggio <span class="form__required" aria-label="campo obbligatorio">*</span></label>
+                            <textarea id="message" name="message" class="form__textarea" placeholder="Scrivi il tuo messaggio..." rows="5" required></textarea>
+                            <span class="form__error" role="alert" aria-live="polite"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary btn--full">
+                            <span class="btn__text">Invia Messaggio</span>
+                            <span class="btn__loader" aria-hidden="true"></span>
+                            <svg class="btn__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <line x1="22" y1="2" x2="11" y2="13"/>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                            </svg>
+                        </button>
+                        
+                        <div class="form__success" role="status" aria-live="polite">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22 4 12 14.01 9 11.01"/>
+                            </svg>
+                            <p>Messaggio inviato con successo! Ti risponderemo al più presto.</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <a href="#" class="footer__logo" aria-label="Wanderlight - Torna alla home">
+                        <span class="footer__logo-icon">✨</span>
+                        <span class="footer__logo-text">Wanderlight</span>
+                    </a>
+                    <p class="footer__tagline">Illumina il tuo cammino verso nuove esperienze.</p>
+                </div>
+                
+                <nav class="footer__nav" aria-label="Link footer">
+                    <ul class="footer__links">
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#about" class="footer__link">Chi Siamo</a></li>
+                        <li><a href="#services" class="footer__link">Servizi</a></li>
+                        <li><a href="#contact" class="footer__link">Contatti</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    &copy; <span id="current-year"></span> Wanderlight. Tutti i diritti riservati.
+                </p>
+                <p class="footer__credits">
+                    Developed by <a href="https://www.sicilean.tech" target="_blank" rel="noopener noreferrer" class="footer__credits-link">Sicilean</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Torna all'inizio della pagina">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <polyline points="18 15 12 9 6 15"/>
+        </svg>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
